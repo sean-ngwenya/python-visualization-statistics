@@ -29,23 +29,41 @@ By completing this repository, I demonstrate the ability to:
 
 python-visualization-statistics/
 │
+
 ├── README.md
+
 ├── LICENSE
+
 ├── requirements.txt
+
 │
+
 ├── outputs/
+
 │ ├── day2_basic_plots.png
+
 │ ├── day2_statistical_plots.png
+
 │ └── day2_seaborn_plots.png
+
 │
+
 ├── src/
+
 │ ├── init.py
+
 │ ├── basic_plots.py
+
 │ ├── descriptive_statistics.py
+
 │ ├── hypothesis_testing.py
+
 │ ├── statistical_visualizations.py
+
 │ └── pandas_statistics.py
+
 │
+
 └── main.py
 
 ---
