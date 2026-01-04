@@ -1,6 +1,7 @@
 # Python Visualization & Statistics
 
 ## Overview
+
 This repository demonstrates how **statistical analysis and data visualization concepts traditionally performed in SPSS** can be implemented using **Python**.
 
 It focuses on:
@@ -14,8 +15,8 @@ The project is structured to reflect **real analytical workflows**, not isolated
 ---
 
 ## Learning Objectives
-By completing this repository, I demonstrate the ability to:
 
+By completing this repository, I demonstrate the ability to:
 - Create publication-quality visualizations in Python
 - Apply descriptive and inferential statistics programmatically
 - Perform hypothesis testing using SciPy
@@ -26,45 +27,28 @@ By completing this repository, I demonstrate the ability to:
 ---
 
 ## Repository Structure
-
+```
 python-visualization-statistics/
 │
-
 ├── README.md
-
 ├── LICENSE
-
 ├── requirements.txt
-
 │
-
 ├── outputs/
-
-│ ├── day2_basic_plots.png
-
-│ ├── day2_statistical_plots.png
-
-│ └── day2_seaborn_plots.png
-
+│   ├── day2_basic_plots.png
+│   ├── day2_statistical_plots.png
+│   └── day2_seaborn_plots.png
 │
-
 ├── src/
-
-│ ├── init.py
-
-│ ├── basic_plots.py
-
-│ ├── descriptive_statistics.py
-
-│ ├── hypothesis_testing.py
-
-│ ├── statistical_visualizations.py
-
-│ └── pandas_statistics.py
-
+│   ├── __init__.py
+│   ├── basic_plots.py
+│   ├── descriptive_statistics.py
+│   ├── hypothesis_testing.py
+│   ├── statistical_visualizations.py
+│   └── pandas_statistics.py
 │
-
 └── main.py
+```
 
 ---
 
@@ -109,14 +93,14 @@ python-visualization-statistics/
 
 ## SPSS → Python Concept Mapping
 
-| SPSS Component        | Python Equivalent            |
-|----------------------|------------------------------|
-| Data View            | Pandas DataFrame             |
-| Charts               | Matplotlib / Seaborn         |
-| Analyze → Descriptives | NumPy / Pandas              |
-| Analyze → Compare Means | SciPy `ttest_ind`          |
-| Crosstabs            | Pandas + SciPy Chi-square    |
-| Correlations         | SciPy `pearsonr`             |
+| SPSS Component           | Python Equivalent            |
+|--------------------------|------------------------------|
+| Data View                | Pandas DataFrame             |
+| Charts                   | Matplotlib / Seaborn         |
+| Analyze → Descriptives   | NumPy / Pandas               |
+| Analyze → Compare Means  | SciPy `ttest_ind`            |
+| Crosstabs                | Pandas + SciPy Chi-square    |
+| Correlations             | SciPy `pearsonr`             |
 
 ---
 
@@ -126,64 +110,67 @@ python-visualization-statistics/
 ```bash
 git clone https://github.com/sean-ngwenya/python-visualization-statistics.git
 cd python-visualization-statistics
-2. Create a Virtual Environment (Recommended)
-bash
-Copy code
+```
+
+### 2. Create a Virtual Environment (Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
-3. Install Dependencies
-bash
-Copy code
+```
+
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-4. Run the Project
-bash
-Copy code
+```
+
+### 4. Run the Project
+```bash
 python main.py
-All generated plots will be saved in the figures/ directory.
+```
 
-Technologies Used
-Python 3
+All generated plots will be saved in the `outputs/` directory.
 
-NumPy
+---
 
-Pandas
+## Technologies Used
 
-Matplotlib
+- Python 3
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- SciPy
+- Git & GitHub
+- Linux (Pop!_OS)
+- VS Code
 
-Seaborn
+---
 
-SciPy
+## Learning Context
 
-Git & GitHub
-
-Linux (Pop!_OS)
-
-VS Code
-
-Learning Context
 This repository builds on:
-
-Python Fundamentals
-
-NumPy (Scientific Computing)
-
-Pandas (Data Manipulation)
+- Python Fundamentals
+- NumPy (Scientific Computing)
+- Pandas (Data Manipulation)
 
 It forms the statistical and visualization foundation required for:
+- Data analysis
+- Machine learning
+- AI model evaluation
 
-Data analysis
+---
 
-Machine learning
+## License
 
-AI model evaluation
-
-License
 This project is licensed under the MIT License.
+
 You are free to use, modify, and distribute this code with attribution.
 
-Author
-Sean Craig Ngwena
-BSc AI & ML Student
+---
 
-GitHub: https://github.com/sean-ngwenya
+## Author
+
+**Sean Craig Ngwena**  
+BSc AI & ML Student  
+GitHub: [https://github.com/sean-ngwenya](https://github.com/sean-ngwenya)
